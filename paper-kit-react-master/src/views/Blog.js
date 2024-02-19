@@ -7,7 +7,7 @@ export default class Blog extends Component {
         const styleFooter = { fontSize: "14px" }
         return (
 
-            <div>
+            <div style={{ paddingTop: '100px' }} >
                 <html><head> name="title" content="Fiat Marea 2003: Um Carro Divertido e Tecnológico"</head><body>
                     <h1>Fiat Marea 2003: Um Carro Divertido e Tecnológico</h1><span style={styleSubTitle}>
                         <iframe style={styleIframe}
